@@ -15,6 +15,10 @@
 		0C71DDD32B62D5920004AD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C71DDD22B62D5920004AD4F /* Assets.xcassets */; };
 		0C71DDD62B62D5920004AD4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C71DDD52B62D5920004AD4F /* Preview Assets.xcassets */; };
 		0C71DDDD2B62FF550004AD4F /* LondrinaSketch-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C71DDDC2B62FF550004AD4F /* LondrinaSketch-Regular.ttf */; };
+		0CB0CECF2B64DB4100BE740B /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0CECE2B64DB4100BE740B /* ResultPage.swift */; };
+		0CB0CED12B64DC3800BE740B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0CED02B64DC3800BE740B /* SecondView.swift */; };
+		0CB0CED32B64DC6700BE740B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0CED22B64DC6700BE740B /* Log.swift */; };
+		0CB0CED52B64DC9000BE740B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0CED42B64DC9000BE740B /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		0C71DDD52B62D5920004AD4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C71DDDC2B62FF550004AD4F /* LondrinaSketch-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LondrinaSketch-Regular.ttf"; path = "../../../../../../../Downloads/Londrina_Sketch/LondrinaSketch-Regular.ttf"; sourceTree = "<group>"; };
 		0C71DDDE2B62FF830004AD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0CB0CECE2B64DB4100BE740B /* ResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPage.swift; sourceTree = "<group>"; };
+		0CB0CED02B64DC3800BE740B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		0CB0CED22B64DC6700BE740B /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		0CB0CED42B64DC9000BE740B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +73,13 @@
 				0C71DDDC2B62FF550004AD4F /* LondrinaSketch-Regular.ttf */,
 				0C71DDCE2B62D5910004AD4F /* KNN_AppApp.swift */,
 				0C71DDD02B62D5910004AD4F /* ContentView.swift */,
+				0CB0CED42B64DC9000BE740B /* Home.swift */,
+				0CB0CED22B64DC6700BE740B /* Log.swift */,
+				0CB0CED02B64DC3800BE740B /* SecondView.swift */,
 				0C71DDD22B62D5920004AD4F /* Assets.xcassets */,
 				0C71DDD42B62D5920004AD4F /* Preview Content */,
 				0C1777452B64695E000A7444 /* Launch Screen.storyboard */,
+				0CB0CECE2B64DB4100BE740B /* ResultPage.swift */,
 			);
 			path = "KNN-App";
 			sourceTree = "<group>";
@@ -156,6 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C71DDD12B62D5910004AD4F /* ContentView.swift in Sources */,
+				0CB0CECF2B64DB4100BE740B /* ResultPage.swift in Sources */,
+				0CB0CED32B64DC6700BE740B /* Log.swift in Sources */,
+				0CB0CED12B64DC3800BE740B /* SecondView.swift in Sources */,
+				0CB0CED52B64DC9000BE740B /* Home.swift in Sources */,
 				0C71DDCF2B62D5910004AD4F /* KNN_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
